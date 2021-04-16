@@ -1,0 +1,119 @@
+body{
+    font-family: Montserrat;
+}
+.navbar{
+    margin-top: 20px;
+}
+.navbar-brand {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    color: #151517;
+}
+.nav-link{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;  
+    color: #151517; 
+}
+a.nav-link:hover{
+    color: #A55248;
+}
+a.nav-link.home{
+    color: #A55248;
+}
+.img-thumbnail {
+    padding: .25rem;
+    position: absolute;
+    width: 600px;
+    right: 200px;
+    top: 100px;
+    height: auto;
+    border: 0px;
+    background-color: transparent;
+}
+.text{    
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 540px;
+    top: 160px;
+    font-size: 48px;
+  }
+.span-1 {
+    color: rgba(165, 82, 72, 1);
+    font-family: "Montserrat-SemiBold", Helvetica;
+    font-weight: 600;
+  }
+.short-info{
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 30px;
+}
+.social-icon {
+    align-items: center;
+    display: flex;
+    min-width: 284px;
+  }
+.follow-me {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    color: #828282;
+}
+a .follow-icons {
+    height: 32px;
+    margin-left: 28px;
+    width: 32px;
+    margin-bottom: 20px;
+  }
+.buttons-home{
+    align-items: center;
+    display: flex;
+}  
+.btn-1 {
+    font-weight: 400;
+    color: #ffff;
+    width: 157px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #A55248;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+}
+.btn-2 {
+    display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    border-radius: 10px;
+    margin-left: 26px;
+    font-size: 1rem;
+    width: 157px;
+    line-height: 1.5;
+    border-radius: .25rem;
+    border-color: #A55248;
+}
+#mail{
+    margin-right: 30px;
+}
+#download{
+    margin-right: 15px;
+}
