@@ -26,12 +26,24 @@ a.nav-link:hover{
 a.nav-link.home{
     color: #A55248;
 }
-.img-thumbnail {
+a.nav-link.about{
+    color: #A55248;
+}
+.img-thumbnail-l {
     padding: .25rem;
     position: absolute;
     width: 600px;
     right: 200px;
     top: 100px;
+    height: auto;
+    border: 0px;
+    background-color: transparent;
+}
+.img-thumbnail-2 {
+    padding: .25rem;
+    position: absolute;
+    width: 380px;
+    top: 150px;
     height: auto;
     border: 0px;
     background-color: transparent;
@@ -117,3 +129,27 @@ a .follow-icons {
 #download{
     margin-right: 15px;
 }
+
+/* about */
+.text-2{    
+    position: relative;
+    flex-direction: column;
+    height: auto;
+    margin-left: 550px;
+    width: 600px;
+    top: 90px;
+    font-size: 48px;
+  }
+.follow-icons {
+    height: 40px;
+    margin-left: 28px;
+    width: 45px;
+    margin-bottom: 20px;
+  }
+  .follow-icons.adobe {
+    margin-left: 0px;
+  }
+
+  .short-info.email{
+      font-weight: bold;
+  }
