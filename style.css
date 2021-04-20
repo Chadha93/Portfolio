@@ -106,6 +106,12 @@ a .follow-icons {
     line-height: 1.5;
     border-radius: .25rem;
 }
+a{
+    color: #ffff;
+}
+a:hover{
+    color: #ffff;
+}
 .btn-2 {
     display: inline-block;
     font-weight: 400;
@@ -151,5 +157,20 @@ a .follow-icons {
   }
 
   .short-info.email{
-      font-weight: bold;
+    font-weight: bold;
+  }
+  /* Experience */
+  .experience{
+     position: relative;
+     height: auto;
+     text-align: center;
+     top: 700px;
+     font-size: 48px;
+  }
+img#ex-img-1{
+      width: 100px;
+      height: 100px;
+  }
+  .e-1{
+      margin-top: 80px;
   }
