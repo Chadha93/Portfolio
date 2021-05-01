@@ -5,9 +5,8 @@ body{
     margin-top: 20px;
 }
 .navbar-brand {
-    font-family: Montserrat;
+    font-family: "Montserrat-SemiBold", Helvetica;
     font-style: normal;
-    font-weight: bold;
     font-size: 22px;
     line-height: 27px;
     color: #151517;
@@ -163,7 +162,6 @@ a:hover{
   .experience{
      position: relative;
      height: auto;
-     text-align: center;
      top: 700px;
      font-size: 48px;
   }
@@ -172,5 +170,12 @@ img#ex-img-1{
       height: 100px;
   }
   .e-1{
-      margin-top: 80px;
+      margin-top: 15px;
+      font-size: 30px;
   }
+  .projects{
+    position: relative;
+    height: auto;
+    top: 700px;
+    font-size: 48px;
+ }
