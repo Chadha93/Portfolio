@@ -44,7 +44,7 @@ a.nav-link.about{
     width: 380px;
     top: 152px;
     height: auto;
-    border: 1px;
+    border: 0px;
     background-color: transparent;
 }
 .text{    
